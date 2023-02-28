@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Onine CV builder",
   "private": true,
-  "homepage": "https://apaltrow.github.io/cv-builder/",
+  "homepage": "https://apaltrow.github.io/cv-builder",
   "scripts": {
     "start": "webpack serve --config webpack/webpack.config.js --env env=dev",
     "build:dev": "webpack --config webpack/webpack.config.js --env env=dev",

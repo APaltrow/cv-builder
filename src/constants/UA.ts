@@ -33,7 +33,7 @@ export const UA = {
     social: 'Посилання: /linkedIn.com/me',
   },
   heading: {
-    welcome: `Ласкаво просимо да CV Builder'а !`,
+    welcome: `Ласкаво просимо дo CV Builder'а !`,
     cta: 'Зроби своє резюме всього за кілька хвилин ...',
     start: 'Почати',
   },

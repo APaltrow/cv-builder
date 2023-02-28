@@ -25,9 +25,9 @@ module.exports = {
       minify: {
         removeComments: true,
         collapseWhitespace: true,
-        removeAttributeQuotes: true,
-        collapseBooleanAttributes: true,
-        removeScriptTypeAttributes: true,
+        //removeAttributeQuotes: true,
+        // collapseBooleanAttributes: true,
+        // removeScriptTypeAttributes: true,
       },
     }),
     new MiniCssExtractPlugin({
