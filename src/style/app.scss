@@ -1,0 +1,15 @@
+@import '@style/fontFace.scss';
+@import '@style/_variables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  color: $font_color;
+}
+
+.app {
+  font-family: 'Roboto', sans-serif;
+  background-color: $background_color;
+  min-height: 98vh;
+  padding-bottom: 20px;
+}

@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@": ["src"],
+      "@style": ["src/style"],
+      "@assets": ["src/assets"],
+      "@components": ["src/components"],
+      "@constants": ["src/constants"],
+      "@hooks": ["src/hooks"],
+      "@pages": ["src/pages"]
+    },
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "outDir": "",
+    "noEmit": true,
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true
+  },
+  "exclude": ["node_modules", "dist", "build", "webpack"]
+}

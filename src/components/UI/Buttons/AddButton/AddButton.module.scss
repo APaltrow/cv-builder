@@ -1,0 +1,39 @@
+@import '@style/_variables.scss';
+
+.plus_button {
+  width: 30px;
+  padding: 5px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+
+  overflow: hidden;
+  transition: all 0.2s;
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgb(213, 245, 255);
+    border-radius: 10px;
+
+    width: 120px;
+  }
+}
+
+.plus_icon {
+  width: 25px;
+}
+.plus_text {
+  white-space: nowrap;
+}
+
+@media print {
+  .plus_button {
+    display: none;
+  }
+}

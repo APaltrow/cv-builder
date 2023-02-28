@@ -1,0 +1,51 @@
+@import '@style/_variables.scss';
+
+.Resume {
+  height: 1670px;
+  width: 1240px;
+  margin: 0 auto;
+
+  display: flex;
+
+  background-color: $article_color;
+
+  box-shadow: $box_shadow;
+  overflow: hidden;
+}
+
+.info_section {
+  width: 40%;
+  padding: 10px;
+
+  border-right: 1px dashed lightgray;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.main_section {
+  width: 100%;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.print {
+  position: fixed;
+  right: 20px;
+  top: 15%;
+  padding: 10px;
+  background-color: $article_color;
+  box-shadow: $box_shadow;
+  border-radius: 10px;
+}
+
+// ------------
+
+@media print {
+  .Resume {
+    box-shadow: none;
+  }
+}

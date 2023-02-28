@@ -1,0 +1,17 @@
+@import '@style/_variables.scss';
+
+.description {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.description_item {
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+}
+.description_icon {
+  width: 25px;
+  height: 25px;
+  opacity: 0.5;
+}

@@ -1,0 +1,25 @@
+@import '@style/_variables.scss';
+
+.Header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  padding: 10px;
+  margin-bottom: 20px;
+
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  background-color: $article_color;
+  box-shadow: $box_shadow;
+}
+.logo {
+  width: $icon_size_large;
+  height: $icon_size_large;
+}
+
+.divider {
+  flex: 1;
+}

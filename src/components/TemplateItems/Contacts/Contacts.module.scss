@@ -1,0 +1,19 @@
+@import '@style/_variables.scss';
+
+.contacts {
+  margin-left: 20px;
+}
+.contacts_item {
+  margin-top: 10px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contacts_icon {
+  width: $icon_size_mid;
+  height: $icon_size_mid;
+
+  opacity: 0.5;
+}

@@ -1,0 +1,12 @@
+@import '@style/_variables.scss';
+
+.Home {
+  width: 97%;
+  min-height: 82vh;
+
+  margin: 0 auto;
+  padding: 20px;
+
+  background-color: $article_color;
+  box-shadow: $box_shadow;
+}

@@ -1,0 +1,23 @@
+@import '@style/_variables.scss';
+
+.greeting {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.welcome {
+  margin: 50px 0;
+  color: $font_color;
+}
+
+.cta {
+  font-size: 40px;
+  margin-bottom: 50px;
+
+  background: -webkit-linear-gradient(yellow, tomato);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
