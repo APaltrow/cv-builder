@@ -1,6 +1,6 @@
 # _Project_ : CV Builder
 
-_See project live :_ **[CVBuilder.com](link here)**
+_See project live :_ **[CVBuilder.com](https://apaltrow.github.io/cv-builder/)**
 
 ## About
 

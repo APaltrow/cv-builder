@@ -1,15 +1,18 @@
 {
-  "name": "todo-webpack",
+  "name": "CVBuilder",
   "version": "1.0.0",
-  "description": "self modified config",
+  "description": "Onine CV builder",
   "private": true,
+  "homepage": "https://apaltrow.github.io/cv-builder/",
   "scripts": {
     "start": "webpack serve --config webpack/webpack.config.js --env env=dev",
     "build:dev": "webpack --config webpack/webpack.config.js --env env=dev",
     "build:prod": "webpack --config webpack/webpack.config.js --env env=prod",
     "lint": "eslint \"./src/**/*.{js,jsx,ts,tsx}\"",
     "lint:fix": "eslint --fix .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build:prod"
   },
   "author": "APaltrow",
   "license": "ISC",
